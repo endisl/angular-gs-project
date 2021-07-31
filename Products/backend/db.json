@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook",
+      "price": 995.89
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 699.19
+    },
+    {
+      "name": "Pendrive",
+      "price": 14.99,
+      "id": 3
+    },   
+    {
+      "id": 4,
+      "name": "Test",
+      "price": 100
+    }
+  ]
+}
