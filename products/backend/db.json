@@ -18,7 +18,7 @@
     {
       "id": 4,
       "name": "Test",
-      "price": "100"
+      "price": 100
     }
   ]
 }
