@@ -1,4 +1,3 @@
-
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,7 +13,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';  //"MatSnackBarModule" and not "MatSnackBar" |160721 //https://github.com/angular/angular/issues/36060
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
@@ -27,7 +26,6 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -47,10 +45,10 @@ registerLocaleData(localePt);
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    RedDirective,    
-    ProductCreateComponent, ProductReadComponent, ProductRead2Component, ProductUpdateComponent, ProductDeleteComponent
+    RedDirective,
+    ProductCreateComponent, ProductReadComponent, ProductUpdateComponent, ProductDeleteComponent
   ],
-  imports: [    
+  imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -66,7 +64,7 @@ registerLocaleData(localePt);
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule    
+    MatSortModule
   ],
   providers: [{
     provide: LOCALE_ID,
