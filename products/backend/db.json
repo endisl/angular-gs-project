@@ -14,11 +14,11 @@
       "name": "Pendrive",
       "price": 14.99,
       "id": 3
-    },   
+    },
     {
       "id": 4,
       "name": "Test",
-      "price": 100
+      "price": "100"
     }
   ]
 }

@@ -1,3 +1,5 @@
 ### Products
 
-Angular project about registering products (name and price) with a simple backend built with db-json in order to implement CRUD operations.
+Angular project about registering products using a straightforward backend built with db-json for CRUD operations.
+
+![Screenshot](screens/home.png)
