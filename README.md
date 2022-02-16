@@ -2,7 +2,7 @@
 
 Angular project about registering products using a straightforward backend built with db-json for CRUD operations.
 
-## Excuting the app
+## Executing the app
 
 Run `ng serve` on the development environment.  
 Navigate to `http://localhost:4200/`  
