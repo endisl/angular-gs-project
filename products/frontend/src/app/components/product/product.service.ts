@@ -9,9 +9,9 @@ import { catchError, map } from "rxjs/operators";
   providedIn: "root",
 })
 export class ProductService {
-  baseUrl = "http://localhost:3001/products";
+  baseUrl = "http://localhost:3000/products";
 
-  constructor(private snackbar: MatSnackBar, private http: HttpClient) {}
+  constructor(private snackbar: MatSnackBar, private http: HttpClient) { }
 
   showMessage(msg: string, isError: boolean = false): void {
     this.snackbar.open(msg, "X", {
