@@ -1,10 +1,10 @@
 # Products
 
-Angular project about registering products using a straightforward backend built with JSON server for quick prototypying and mocking.
+Angular project about registering products using a straightforward backend built with JSON server for quick prototyping and mocking.
 
 ## Executing the app
 
-With `npm`, `Angular` and `JSON server` installed in the developement server,  
+With `npm`, `Angular` and `JSON server` installed in the development server,  
 - First run the backend:  
 Execute `json-server --watch db.json` in the backend directory.  
 The products are available on `http://localhost:3000/products`   
