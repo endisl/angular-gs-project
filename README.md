@@ -1,12 +1,16 @@
 # Products
 
-Angular project about registering products using a straightforward backend built with db-json for CRUD operations.
+Angular project about registering products using a straightforward backend built with JSON server for quick prototypying and mocking.
 
 ## Executing the app
 
-Run `ng serve` on the development environment.  
+With `npm`, `Angular` and `JSON server` installed in the developement server,  
+- First run the backend:  
+Execute `json-server --watch db.json` in the backend directory.  
+The products are available on `http://localhost:3000/products`   
+- Then run the frontend:  
+Execute `ng serve` in the frontend directory.  
 Navigate to `http://localhost:4200/`  
-The list of products is available on `http://localhost:4200/products`  
 
 ## Building the app
 Run `ng build --prod` to build the project applying optimization techniques such as   minification, uglification, bundling, dead code elimination and AOT.  
